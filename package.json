@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Application created for the technical challenge of rotunda software interview",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "error-alarm": "cd ./exercises/error_alarm && node index.js", 
     "url-parser": "cd ./exercises/url_parser && node index.js",
