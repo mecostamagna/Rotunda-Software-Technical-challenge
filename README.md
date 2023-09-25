@@ -6,11 +6,7 @@ This repository contains solutions to the Rotunda Software technical challenge c
 
     In a web application environment, errors are logged to a text file. While sporadic errors are a norm, a surge in error frequency may indicate an issue that needs attention. The objective is to devise a system that sends an email notification when more than ten errors are recorded within a minute. The catch is to avoid spamming with notifications and limit it to a single email per minute, even if the error count exceeds the threshold multiple times within that period.
 
-    - How to run:
-
-      ```
-      npm run error-alarm
-      ```
+    The `index.js` in the `exercises/error_alarm` file contains a pseudo code of the implementation with the approach I would give to solve the problem.
 
 2.  **URL Parser Exercise**:
 
